@@ -1,0 +1,45 @@
+@import '../index.scss';
+
+.item-pic{
+    display: flex;
+    flex-direction: row;
+    $img-size: 175px;
+    img{
+        position: relative;
+        margin: 3px;
+        width: $img-size;
+        height: $img-size;
+        border-radius: 5px;
+    }
+    // @include flex(3);
+
+    .col{
+        display: inline-block;
+        text-align: left;
+        height: $img-size;
+        font-size: 18px;
+        margin: 5px 5px 5px 10px;
+        &> span{
+            position: relative;
+            top: 40px;
+            right: 62px;
+        }
+        &> div{
+            margin-bottom: 20px;
+            
+        }
+    }
+}
+.rating{
+    display: inline-block;
+    margin: 0px 10px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid orange;
+    border-radius: 100%;
+    &> span{
+        position: relative;
+        top: 8px;
+        left: 16px;
+    }
+}

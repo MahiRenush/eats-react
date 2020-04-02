@@ -1,0 +1,15 @@
+{
+    "name": "Zaitoon",
+    "location": "Velacherry, Chennai",
+    "recepe": [
+        {
+            "name": "Chicken Rice",
+            "rating": {
+               "Pleasure" :"9",
+               "Flavour" : "8",
+               "Presentation" : "7"
+            }
+            
+        }
+    ]
+}

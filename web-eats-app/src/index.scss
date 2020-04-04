@@ -20,7 +20,7 @@ code {
   background: transparent url(#{$url}) $repeat $pos;
 }
 @mixin border($pix){
-  border: #{$pix}px  solid lightblue;
+  border: #{$pix}px  solid rgb(162, 169, 172);
 }
 $back-theme: #f6f4f4ce;
 input[type="text"]{
@@ -44,7 +44,7 @@ input[type="text"]{
 @mixin flex($end){
   @for $i from 1 through $end{
     .col-#{$i}{
-        flex: 1 ($i/$end)*100%;
+        flex: $i $i ;
         margin: auto;
     }
   }

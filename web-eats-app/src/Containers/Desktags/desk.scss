@@ -1,0 +1,22 @@
+
+    ul{
+        display: flex;
+        margin: 50px 0 1.5px 0;
+        padding-inline-start: 0px;
+        color: #052f60; 
+        font-size: 18px;
+        border-bottom: 1.5px outset #471d26;
+        list-style: none;
+        // justify-content: flex-start;
+        >.link{
+            text-decoration: none;
+            list-style: none;
+            flex: 0 1 50px;
+            padding: 5px;
+        }
+    }
+
+.active{
+    border-bottom: 1.5px solid #e6a0af;
+
+}

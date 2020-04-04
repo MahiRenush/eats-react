@@ -11,18 +11,23 @@ nav{
     
     @include flex(3);
 }
-button{
-    background-color: rgb(216, 10, 72);
-    color: #fff;
+.btn{
+    background-color:#f1474d;
+    color: #fbc2c6;
     font-size: 15px;
-    height: 45px;
-    width: 100px;
     border: 0px;
-    border-radius: 5px;
-    box-shadow: 0 0 15px -3px darkgrey;
+    box-shadow: 0 0 15px 3px #fbc2c6;
     &:hover{
         cursor: pointer;
     }
+}
+.btn-rect{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+}
+.btn-circ{
+    border-radius: 50%;
 }
 .search{
     background-color: $back-theme;

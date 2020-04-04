@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './ContainerStyles.scss'
-import restaurant from '../Data/Locations.json'
+import restaurant from '../../Data/Locations.json'
 class Recepe extends Component{
     constructor(props){
         super(props);
@@ -26,7 +26,16 @@ class Recepe extends Component{
                             </React.Fragment>
                         )}
                     </div>
-                    
+                    <div className="container">
+                        <div className="box">
+                            <div className="start"><i class="fa fa-credit-card" ></i><span>₹ 40</span><br/>  
+                            <span>Min. Holding Package</span></div>
+                            <div className="start end"><i className="fa fa-motorcycle" ></i><span> 40 mins. </span><br/>  
+                            <span>Serving Time</span></div>
+                            <div className="end"><i className="fa fa-clock-o"></i><span> 12 - 20 hrs </span><br/>  
+                            <span>Order Time</span></div>
+                        </div>
+                    </div>
                 </section>
             </React.Fragment>
         )

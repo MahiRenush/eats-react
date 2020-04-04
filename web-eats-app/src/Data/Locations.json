@@ -8,7 +8,44 @@
                "Pleasure" :"9",
                "Flavour" : "8",
                "Presentation" : "7"
-            }
+            },
+            "timing":{
+                "Holding package": "₹ 40",
+                "Service time": "2 hrs",
+                "Order Time": "4hrs"
+            },
+            "group": [
+                {
+                    "title": "Pide Recepe",
+                    "items":[
+                        {
+                            "name": "Kesari pide",
+                            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                            "rate": "10.00"
+                        },
+                        {
+                            "name": "Pineapple pide",
+                            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                            "rate": "19.00"
+                        }
+                    ] 
+                },
+                {
+                    "title": "Kabab Recepe",
+                    "items":[
+                        {
+                            "name": "Chicken Kabab",
+                            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                            "rate": "40.00"
+                        },
+                        {
+                            "name": "Mutton kabab",
+                            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                            "rate": "70.00"
+                        }
+                    ] 
+                }
+            ]
             
         }
     ]

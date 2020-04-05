@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "622803e873a9f683c1b72c5d12c63c9c",
+    "revision": "ac8792fa60849369b367f0bbaf582ded",
     "url": "/eats-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eats-react/static/css/2.ee95de2a.chunk.css"
   },
   {
-    "revision": "b3f79510da246fc1ba27",
-    "url": "/eats-react/static/css/main.6c89e37b.chunk.css"
+    "revision": "a1874c66270179a4944d",
+    "url": "/eats-react/static/css/main.e2e6c471.chunk.css"
   },
   {
     "revision": "c8d6486a29f8c73506f9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eats-react/static/js/2.49cada4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3f79510da246fc1ba27",
-    "url": "/eats-react/static/js/main.478b8b08.chunk.js"
+    "revision": "a1874c66270179a4944d",
+    "url": "/eats-react/static/js/main.fe7482fb.chunk.js"
   },
   {
     "revision": "ff4eae32b8a25156ff53",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eats-react/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/eats-react/static/media/logo.5d5d9eef.svg"
+    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
+    "url": "/eats-react/static/media/logo.ee7cd8ed.svg"
   }
 ]);
